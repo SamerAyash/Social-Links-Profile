@@ -1,0 +1,74 @@
+@font-face {
+    font-family: Inter-Regular;
+    src: url(../fonts/static/Inter-Regular.ttf);
+}
+body{
+    background-color: hsl(0, 0%, 8%);
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 14px;
+}
+.main-section{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.container{
+    margin: 3%;
+    padding: 40px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 12%);
+}
+.profile-image{
+    text-align: center;
+}
+.profile-image img{
+    border-radius: 50%;
+    width: 70px;
+}
+.profile-image .text h1{
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+    font-size: 20px;
+}
+.profile-image .text p:nth-child(2){
+    color: hsl(75, 94%, 57%);
+    font-size: 12px;
+}
+.section-one p:first-child{
+    text-align: center;
+    margin-bottom: 10px;
+    color: #ffffffad;
+}
+.section-one .links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-one .links ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.section-one .links li{
+    margin-top: 15px;
+    border-radius: 5px;
+    background-color: hsl(0, 0%, 20%);
+    text-align: center;
+    height: 40px;
+    width: 300px;
+    align-content: center;
+}
+.section-one .links li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+.section-one .links li:hover, .section-one .links li:hover a{
+    color: black;
+    background-color: hsl(75, 94%, 57%);
+}
+
